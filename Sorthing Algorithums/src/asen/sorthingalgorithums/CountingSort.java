@@ -30,7 +30,6 @@ public class CountingSort implements Sort {
 			int result[] = new int[elements.length];
 
 			for (int i = 0; i < elements.length; i++) {
-
 				int num = elements[i];
 				numbersCount[num]++;
 			}
@@ -41,7 +40,6 @@ public class CountingSort implements Sort {
 			}
 
 			for (int i = 0; i < elements.length; i++) {
-
 				int num = elements[i];
 				numbersCount[num]--;
 				int pos = numbersCount[num];
